@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <title>todo-List</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <form action="" id="todoForm" name="todoListForm" onSubmit="return false;" >
+                <span class="todoList">ToDoList</span>
+                <input type="text" id="todoInput" placeholder="添加ToDo"/>
+            </form>
+        </div>
+    </div>
+    <div id="functionPart">
+        <div class="doingPart">
+            <div class="title">等待处理 </div>
+            <span class="count" id="todoListLength"></span>
+            <ol id="todoList"></ol>
+        </div>
+        <div class="finishedPart">
+            <div class="title">已经完成</div>
+            <span class="count" id="finishedListLength"></span>
+            <ol id="finishedList"></ol>
+        </div>
+    </div>
+    <div class="footer">Copyright @ 2018 todolist.cn clear</div>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

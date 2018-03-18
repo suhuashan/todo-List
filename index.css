@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: gainsboro;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height:5rem;
+    background-color: #222;
+    text-align: center;
+}
+.header{
+    position: relative;
+    top:1rem;
+    margin:0 auto;
+    width:100%;
+    color: white;
+}
+.todoList{
+    margin-right: 3rem;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+#todoInput{
+    width: 19rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+.title{
+    font-size: 2.5rem;
+    margin-top:1rem;
+    margin-bottom: 0.5rem;
+    float: left;
+}
+.doingPart, .finishedPart{
+    width:100%;
+    clear: both;
+}
+#todoList, #finishedList{
+    clear: both;
+}
+.count{
+    float: right;
+    margin-top: 1.3rem;
+    margin-right: 2rem;
+    background-color: #fff;
+    border-radius: 0.9rem;
+    width:2rem;
+    height: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+#value{
+    border: none;
+}
+.deleteBtn{
+    float: right;
+    margin-right: 2rem;
+    margin-top:0.7rem;
+    background-color: gainsboro;
+    color: #fff;
+    border-radius: 0.7rem;
+    width:2rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    outline:none;
+    border: 0.3rem solid #999;
+    padding-bottom: 1rem;
+}
+#checkbox{
+    width:2rem;
+    height:2rem;
+    vertical-align: middle;
+}
+li{
+    list-style: none;
+    background-color: #fff;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    border-left:0.4rem lightblue solid ;
+}
+.footer{
+    clear: both;
+    text-align: center;
+    width:30rem;
+    height:1.5rem;
+    line-height: 1.5rem;
+}
